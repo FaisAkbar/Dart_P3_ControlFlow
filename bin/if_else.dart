@@ -39,11 +39,10 @@ void main() {
   int oil = int.parse(stdin.readLineSync()!);
   int jumlahMinyak = mainCode(oil, egg);
   if (egg == 'Ya' || egg == 'ya') {
-    print('Yang harus dibeli adalah $jumlahMinyak Minyak dan 6 Telur');
+    print('Yang harus dibeli adalah $jumlahMinyak Botol Minyak dan 6 Telur');
   } else {
-    print('Yang harus dibeli adalah $jumlahMinyak');
+    print('Yang harus dibeli adalah $jumlahMinyak Botol Minyak');
   }
-
 }
 int mainCode(int oil, String? egg) {
 //  declaration variable
